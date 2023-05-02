@@ -1,19 +1,9 @@
 package ru.netology.service;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-
+import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class CashbackHackServiceTest {
-    @Test
-    public void remainTestEquivalenceJUnit5() {
-        CashbackHackService service = new CashbackHackService();
-        int expected = 50;
-        int actual = service.remain(950);
-
-        Assertions.assertEquals(expected,actual);
-    }
     @Test
     public void remainTestEquivalence() {
         CashbackHackService service = new CashbackHackService();
